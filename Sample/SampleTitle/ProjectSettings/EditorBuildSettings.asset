@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Title/TitleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Home/HomeScene.unity
+    guid: fd5db54955eed78448ab2445fedd31fc
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Deck/DeckScene.unity
+    guid: e8f66339489c88e44be70df810871dc9
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Store/StoreScene.unity
+    guid: 4a7ac054bbf683d4fa7aa8ca79fa66e0
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/MyPage/MyPageScene.unity
+    guid: 243921972ec3c5749b0ab0586e688561
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/PresentBox/PresentBoxScene.unity
+    guid: dd85a8e3a84256d4a8d9991d8cb52990
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Story/StoryScene.unity
+    guid: af1115ce8fb57c545b968e47550e7607
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/InGame/InGameScene.unity
+    guid: 4eb658f7d729d684d8b4008190280e73
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Mission/MissionScene.unity
+    guid: f82cb6622d1186c48a1dfa99c6862bc0
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Friend/FriendScene.unity
+    guid: b0878e0b1cd47b84e89fc515cbb64fd4
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/News/NewsScene.unity
+    guid: 1911eca8bfd8ddc4cb98ef62854efa76
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Ranking/RankingScene.unity
+    guid: 0b8118f14a785164ca44e3c6c587a881
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Synthetic/SyntheticScene.unity
+    guid: 1a3e5fa37d3933248a2f1d98b3a37f8e
+  - enabled: 1
+    path: Assets/PlayFabBook/Scenes/Gacha/GachaScene.unity
+    guid: efd99b26f510ca545ab3b3b9654926be
+  m_configObjects: {}
