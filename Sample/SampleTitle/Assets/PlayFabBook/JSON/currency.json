@@ -1,0 +1,29 @@
+[
+  {
+    "CurrencyCode": "EP",
+    "DisplayName": "経験値",
+    "InitialDeposit": 0,
+    "RechargeRate": 0,
+    "RechargeMax": 0,
+    "CurrencyCodeFull": "EP (経験値)",
+    "GameManagerClassMetadata": null
+  },
+  {
+    "CurrencyCode": "MS",
+    "DisplayName": "魔法石",
+    "InitialDeposit": 0,
+    "RechargeRate": 0,
+    "RechargeMax": 0,
+    "CurrencyCodeFull": "MS (魔法石)",
+    "GameManagerClassMetadata": null
+  },
+  {
+    "CurrencyCode": "ST",
+    "DisplayName": "スタミナ",
+    "InitialDeposit": 10,
+    "RechargeRate": 1440,
+    "RechargeMax": 999,
+    "CurrencyCodeFull": "ST (スタミナ)",
+    "GameManagerClassMetadata": null
+  }
+]

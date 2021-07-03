@@ -1,0 +1,599 @@
+{
+  "CatalogVersion": "Main",
+  "Catalog": [
+    {
+      "ItemId": "character-00000001",
+      "ItemClass": "Character",
+      "CatalogVersion": "Main",
+      "DisplayName": "スライム",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "character-00000002",
+      "ItemClass": "Character",
+      "CatalogVersion": "Main",
+      "DisplayName": "スライム（桜）",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "character-00000003",
+      "ItemClass": "Character",
+      "CatalogVersion": "Main",
+      "DisplayName": "スライム（灰）",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "character-00000004",
+      "ItemClass": "Character",
+      "CatalogVersion": "Main",
+      "DisplayName": "ヘビ",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "present-00000001",
+      "ItemClass": "Present",
+      "CatalogVersion": "Main",
+      "DisplayName": "ダウンロードのお礼",
+      "Description": "ダウンロードのお礼として新しいキャラクターと魔法石をプレゼントします。",
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": null,
+        "ItemContents": [
+          "character-00000004"
+        ],
+        "ResultTableContents": [],
+        "VirtualCurrencyContents": {
+          "MS": 100
+        }
+      },
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "bundle-00000001",
+      "ItemClass": "Bundle",
+      "CatalogVersion": "Main",
+      "DisplayName": "経験値ブースト薬 x10 個",
+      "Description": "経験値ブースト薬 10 個セットです。",
+      "VirtualCurrencyPrices": {
+        "MS": 1
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": 3,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [
+          "exp-boost-0001",
+          "exp-boost-0001",
+          "exp-boost-0001",
+          "exp-boost-0001",
+          "exp-boost-0001",
+          "exp-boost-0001",
+          "exp-boost-0001",
+          "exp-boost-0001",
+          "exp-boost-0001",
+          "exp-boost-0001"
+        ],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "exp-00000001",
+      "ItemClass": "Exp",
+      "CatalogVersion": "Main",
+      "DisplayName": "キャラクター経験値（小）",
+      "Description": "キャラクターの経験値が少し増えます。",
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": "{\"Exp\":{\"Exp\":50}}",
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "exp-00000002",
+      "ItemClass": "Exp",
+      "CatalogVersion": "Main",
+      "DisplayName": "キャラクター経験値（中）",
+      "Description": "キャラクターの経験値が増えます。",
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": "{\"Exp\":{\"Exp\":100}}",
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "exp-00000003",
+      "ItemClass": "Exp",
+      "CatalogVersion": "Main",
+      "DisplayName": "キャラクター経験値（大）",
+      "Description": "キャラクターの経験値が大きく増えます。",
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": "{\"Exp\":{\"Exp\":200}}",
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "bundle-quest-reward-0001",
+      "ItemClass": "Bundle",
+      "CatalogVersion": "Main",
+      "DisplayName": "クエスト報酬",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": 3,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [],
+        "BundledResultTables": [
+          "quest-reward-table-001"
+        ],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "exp-boost-0001",
+      "ItemClass": "ExpBoost",
+      "CatalogVersion": "Main",
+      "DisplayName": "経験値ブースト薬",
+      "Description": "使用した クエストの獲得経験値が2倍になります。",
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "stamina-recovery",
+      "ItemClass": " StaminaRecovery",
+      "CatalogVersion": "Main",
+      "DisplayName": "スタミナ回復薬",
+      "Description": "スタミナを最大値まで回復します。",
+      "VirtualCurrencyPrices": {
+        "MS": 1
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "login-bonus-0001",
+      "ItemClass": "Present",
+      "CatalogVersion": "Main",
+      "DisplayName": "ログインボーナス",
+      "Description": "ログインありがとうございます。\n魔法石1個をプレゼントします。",
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": null,
+        "ItemContents": [],
+        "ResultTableContents": [],
+        "VirtualCurrencyContents": {
+          "MS": 1
+        }
+      },
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "bundle-mission-reward-ms-001",
+      "ItemClass": "Bundle",
+      "CatalogVersion": "Main",
+      "DisplayName": "魔法石1個",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": 3,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": {
+          "MS": 1
+        }
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "bundle-mission-reward-ms-005",
+      "ItemClass": "Bundle",
+      "CatalogVersion": "Main",
+      "DisplayName": "魔法石5個",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": 3,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": {
+          "MS": 5
+        }
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "bundle-initial-present-0001",
+      "ItemClass": "Bundle",
+      "CatalogVersion": "Main",
+      "DisplayName": "初期配布アイテム",
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": null,
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": 3,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [
+          "character-00000001",
+          "character-00000002",
+          "character-00000003",
+          "present-00000001"
+        ],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "bundle-gacha-character-0001",
+      "ItemClass": "Bundle",
+      "CatalogVersion": "Main",
+      "DisplayName": "キャラクターガチャ",
+      "Description": null,
+      "VirtualCurrencyPrices": {
+        "MS": 1
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": 3,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [],
+        "BundledResultTables": [
+          "gacha-table-0001"
+        ],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "bundle-gacha-character-0002",
+      "ItemClass": "Bundle",
+      "CatalogVersion": "Main",
+      "DisplayName": "キャラクター10連ガチャ",
+      "Description": null,
+      "VirtualCurrencyPrices": {
+        "MS": 10
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": 3,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [],
+        "BundledResultTables": [
+          "gacha-table-0001",
+          "gacha-table-0001",
+          "gacha-table-0001",
+          "gacha-table-0001",
+          "gacha-table-0001",
+          "gacha-table-0001",
+          "gacha-table-0001",
+          "gacha-table-0001",
+          "gacha-table-0001",
+          "gacha-table-0001"
+        ],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    }
+  ],
+  "DropTables": [
+    {
+      "TableId": "gacha-table-0001",
+      "Nodes": [
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "character-00000001",
+          "Weight": 40
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "character-00000002",
+          "Weight": 30
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "character-00000003",
+          "Weight": 20
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "character-00000004",
+          "Weight": 10
+        }
+      ]
+    },
+    {
+      "TableId": "gacha-table-0002",
+      "Nodes": [
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "character-00000004",
+          "Weight": 1
+        }
+      ]
+    },
+    {
+      "TableId": "quest-reward-table-001",
+      "Nodes": [
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "exp-00000001",
+          "Weight": 7
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "exp-00000002",
+          "Weight": 2
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "exp-00000003",
+          "Weight": 1
+        }
+      ]
+    }
+  ]
+}
