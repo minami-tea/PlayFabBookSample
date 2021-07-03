@@ -63,7 +63,8 @@ namespace PlayFabBook
 
 #### 仮想通貨のアップロード
 
-「エコノミー > 通貨」を開き、 「JSON をアップロード」から`currency.json`をアップロードしてください。
+「エコノミー > 通貨」を開き、 「JSON をアップロード」から`currency.json`をアップロードしてください。  
+最初に開いた場合はアップロードボタンが出ないので、適当な仮想通貨の登録が必要です。
 
 <img width="535" alt="playfab-book-0004000" src="https://user-images.githubusercontent.com/61415027/124339913-841a1a00-dbec-11eb-9df8-7a6956ff8327.png">
 
@@ -72,6 +73,17 @@ namespace PlayFabBook
 「エコノミー > カタログ」を開き、 「JSON をアップロード」から`catalog.json`をアップロードしてください。
 
 <img width="724" alt="playfab-book-0005000" src="https://user-images.githubusercontent.com/61415027/124339928-9a27da80-dbec-11eb-91e6-46100258a937.png">
+
+アップロード後は、以下の手順でプライマリカタログとして設定してください。
+
+<img width="276" alt="playfab-book-0010000" src="https://user-images.githubusercontent.com/61415027/124348133-310f8980-dc23-11eb-9eb5-32ed78b11470.png">
+<img width="416" alt="playfab-book-0011000" src="https://user-images.githubusercontent.com/61415027/124348143-4389c300-dc23-11eb-901d-2d2c2d53c102.png">
+
+#### ストアのアップロード
+
+「エコノミー > カタログ > Main > ストア」を開き、 「JSON をアップロード」から`stores.json`をアップロードしてください。
+
+<img width="897" alt="playfab-book-0012000" src="https://user-images.githubusercontent.com/61415027/124348294-1b4e9400-dc24-11eb-884e-4ec0d75df2c2.png">
 
 ### ランキングの登録
 
@@ -90,6 +102,12 @@ namespace PlayFabBook
 「自動化 > ルール」を開き、以下の情報で登録してください。
 
 <img width="942" alt="playfab-book-0009000" src="https://user-images.githubusercontent.com/61415027/124340153-1ff85580-dbee-11eb-878d-99e22037513e.png">
+
+### タイトルシーンの起動
+
+`Assets/PlayFabBook/Scenes/Title/TitleScene.unity`を起動して、実行してください。
+
+<img width="1011" alt="playfab-book-0013000" src="https://user-images.githubusercontent.com/61415027/124348236-be52de00-dc23-11eb-802e-18be357eaa81.png">
 
 ## 本アプリケーションで使用しているアセット/ライブラリに関するライセンス表記
 PlayFab/CSharpSDK
