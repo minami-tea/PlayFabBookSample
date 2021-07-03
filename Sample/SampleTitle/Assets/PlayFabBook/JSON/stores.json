@@ -1,0 +1,145 @@
+[
+  {
+    "StoreId": "DummyStore",
+    "Store": [
+      {
+        "ItemId": "login-bonus-0001",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 0,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      },
+      {
+        "ItemId": "bundle-quest-reward-0001",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 0,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      },
+      {
+        "ItemId": "bundle-mission-reward-ms-001",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 0,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      },
+      {
+        "ItemId": "bundle-mission-reward-ms-005",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 0,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      },
+      {
+        "ItemId": "bundle-initial-present-0001",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 0,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      }
+    ],
+    "SegmentOverrides": [],
+    "MarketingData": {
+      "DisplayName": "Dummy",
+      "Description": "報酬の配布などのために使用するダミーのストアです。",
+      "Metadata": ""
+    }
+  },
+  {
+    "StoreId": "GachaStore",
+    "Store": [
+      {
+        "ItemId": "bundle-gacha-character-0001",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 1,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      },
+      {
+        "ItemId": "bundle-gacha-character-0002",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 10,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      }
+    ],
+    "SegmentOverrides": [],
+    "MarketingData": {
+      "DisplayName": "ガチャストア",
+      "Description": null,
+      "Metadata": ""
+    }
+  },
+  {
+    "StoreId": "MainStore",
+    "Store": [
+      {
+        "ItemId": "stamina-recovery",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 1,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      },
+      {
+        "ItemId": "bundle-00000001",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 1,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      },
+      {
+        "ItemId": "bundle-gacha-character-0001",
+        "VirtualCurrencyPrices": {
+          "EP": null,
+          "MS": 1,
+          "ST": null,
+          "RM": null
+        },
+        "CustomData": "",
+        "DisplayPosition": null
+      }
+    ],
+    "SegmentOverrides": [],
+    "MarketingData": {
+      "DisplayName": "",
+      "Description": null,
+      "Metadata": ""
+    }
+  }
+]
